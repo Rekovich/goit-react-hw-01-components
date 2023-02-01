@@ -1,0 +1,76 @@
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto 20px;
+  width: 250px;
+  flex-direction: column;
+  border-color: rgb(212, 141, 55);
+  border: 5px solid;
+  background-color: rgba(233, 232, 169, 0.521);
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 0px rgb(250, 131, 131)
+}
+
+.description {
+  text-align: center;
+  border-color: aqua;
+  width: 100%;
+}
+.avatar {
+  display: block;
+  width: 250px;
+  height: 100%;
+}
+.name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: rgb(225, 249, 7);
+  line-height: 1.2;
+  background-color: blue;
+}
+.tag {
+    font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: rgb(225, 249, 7);
+  line-height: 1.2;
+  background-color: blue;
+}
+.location {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: rgb(225, 249, 7);
+  line-height: 1.2;
+  background-color: blue;
+}
+.stats {
+  display: flex;
+  background-color:  aqua;
+  list-style: none;
+  gap: 35px;
+  justify-content: center;
+  justify-content: space-between;
+}
+.label {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+}
+.quantity {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+}
+
